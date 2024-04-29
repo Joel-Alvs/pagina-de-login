@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./lg.css">
+    <title>Login Steam Tv</title>
+</head>
+<body>
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="Design sem nome (5)-Photoroom.png-Photoroom (1).png" alt="logo da stream">
+                <h1>Welcome back</h1>
+                <h2>Please enter your details.</h2>
+            </div>
+
+            <form method="post">
+                <input type="text" name="Nome" placeholder="Nome de Usuario" autofocus>
+                <input type="password" name="Senha" placeholder="Sua Senha">
+                <p>Forgot Password?<a href=""></a></p>
+                <input type="submit" value="sing in">
+
+                <script src="https://accounts.google.com/gsi/client" async></script>
+                <div id="g_id_onload"
+                    data-client_id="YOUR_GOOGLE_CLIENT_ID"
+                    data-login_uri="https://your.domain/your_login_endpoint"
+                    data-auto_prompt="false">
+                </div>
+                <div class="g_id_signin"
+                    data-type="standard"
+                    data-size="large"
+                    data-theme="outline"
+                    data-text="sign_in_with"
+                    data-shape="rectangular"
+                    data-logo_alignment="left">
+                </div>
+                <hr>
+                <p class="t">Don't have an account? <a href="Sing up">Sign up</a></p>
+            </form>    
+        </div>
+    </section>
+</body>
+</html>
